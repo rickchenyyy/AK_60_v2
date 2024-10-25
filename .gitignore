@@ -1,0 +1,25 @@
+# Ignore everything
+*
+
+# Unignore the Core directories
+!/Core
+!/Core/Src
+!/Core/Inc
+
+# Unignore specific files within Core/Src and Core/Inc
+!/Core/Src/main.c
+!/Core/Src/mainpp.cpp
+!/Core/Inc/main.h
+!/Core/Inc/mainpp.h
+
+# Unignore directories and their contents
+!/Motor
+!/Motor/*
+!/CAN
+!/CAN/*
+!/Control
+!/Control/*
+
+!/.AK_60_v2.ioc
+!/*.zip
+!/.gitignore
